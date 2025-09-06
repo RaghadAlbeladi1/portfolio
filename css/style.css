@@ -13,6 +13,7 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+
 .image-container {
     width: 200px;
     height: 200px;
@@ -27,3 +28,17 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.infolinks{
+display: flex;
+flex-direction: row;
+margin: 50px;
+align-items: center;
+}
+
+.infolinks img { 
+width: 40px; 
+height: 40px;
+gap: 2px;
+}
+
