@@ -31,14 +31,18 @@ body {
 
 .infolinks{
 display: flex;
-flex-direction: row;
-margin: 50px;
+flex-direction:row;
+justify-content: center;
 align-items: center;
+max-width: 100%;
+gap:10px;
+flex-wrap: wrap;
+margin: 50px;
 }
 
 .infolinks img { 
-width: 40px; 
-height: 40px;
+max-width: 40px; 
+min-height: 40px;
 gap: 2px;
 }
 
