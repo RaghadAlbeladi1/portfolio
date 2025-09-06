@@ -3,3 +3,27 @@
     text-align: center;
     margin: 0 auto;
 }
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: lightsalmon;
+  margin: 0px;
+  font-family: system-ui, sans-serif;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
